@@ -78,7 +78,7 @@ const inputElevation = document.querySelector('.form__input--elevation');
 
 class App {
   #map;
-  #mapZoomLevel = 14;
+  #mapZoomLevel = 15;
   #mapEvent;
   #workouts = [];
 
