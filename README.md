@@ -1,26 +1,26 @@
-# Mapty 🗺️
+# 🗺️ Mapty
 
 **Mapty** is a web-based application that allows users to track their running and cycling workouts by pinpointing locations on a map. The app uses the **Leaflet library** for rendering maps and markers and leverages the **Geolocation API** to capture the user's current position. Workouts are stored in **local storage**, ensuring they persist between sessions.
 
-## Features 🌟
+## 🚀 Features
 
-- **Leaflet Map Integration**: Display maps and allow users to mark workout locations.
-- **Geolocation API**: Automatically detect and display the user’s current location on the map.
-- **Local Storage API**: Workouts are saved locally, and users can retrieve their data on their next login.
-- **Running & Cycling Workouts**: Users can log their workouts (either running or cycling) with additional data like distance, time, and cadence.
-- **Form-Based Input**: A workout form is displayed when a location is clicked on the map, where users can input workout data.
-- **Move to Marker**: Click on a workout in the workout list to move the map to the corresponding marker location.
+- 🍀 **Leaflet Map Integration**: Display maps and allow users to mark workout locations.
+- 📍 **Geolocation API**: Automatically detect and display the user’s current location on the map.
+- 💾 **Local Storage API**: Workouts are saved locally, and users can retrieve their data on their next login.
+- 🏃‍♂️ **Running & Cycling Workouts**: Users can log their workouts (either running or cycling) with additional data like distance, time, and cadence.
+- 📝 **Form-Based Input**: A workout form is displayed when a location is clicked on the map, where users can input workout data.
+- 🧭 **Move to Marker**: Click on a workout in the workout list to move the map to the corresponding marker location.
 
-## Demo 📽️
+## 📽️ Demo 
 **Interactive Mapty Demo:** [Explore now](https://mostafa-ehab22.github.io/Mapty-Workout-Tracker/)
 
-## Key Components 🔑
+## 🔑 Key Components 
 - **OOP Architecture:** Manage workout data efficiently with the App & Workout classes.
 - **Geolocation API:** Used to get the user's current position.
 - **Leaflet.js:** To render maps and manage workout markers.
 - **Local Storage:** Saves workout data to be retrieved across sessions.
 
-## Technologies Used 🛠️
+## 🛠️ Technologies Used 
 
 - **HTML5**
 - **CSS3**
@@ -29,7 +29,7 @@
 - **Geolocation API** for user location
 - **localStorage** for data persistence
   
-## How to Use 🏃‍♂️🚴‍♀️
+## ▶️ Usage
 
 ### Start the app:
 The map will center on your current location using the **Geolocation API**.
@@ -45,7 +45,7 @@ Your workouts will be listed on the side and can be clicked to center the map on
 ### Data persistence:
 Close the app and come back later—your workouts will still be there, thanks to **localStorage**!
 
-## Installation 📦
+## 📦 Installation 
 
 To run this project locally, follow these steps:
 
