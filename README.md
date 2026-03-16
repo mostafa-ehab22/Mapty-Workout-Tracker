@@ -8,22 +8,12 @@
 </div>
 
 ## 🎯 Project Overview
-![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900.svg?logo=leaflet&logoColor=white) <br>
 
 Interactive **fitness tracking application** with **geolocation integration** and **interactive mapping**. Features **real-time workout logging**, **persistent data storage**, and **dynamic map visualization** for comprehensive workout management and location-based fitness tracking.
 
 ## 🏗️ Architecture & Design
-
-### Tech Stack
-- **HTML5** → Semantic markup with modern web standards and accessibility
-- **CSS3** → Advanced styling with flexbox, grid, and responsive design
-- **JavaScript ES6+** → Object-oriented programming with classes and modern features
-- **Leaflet.js** → Interactive map rendering and marker management
-- **Geolocation API** → Real-time user positioning and location services
-- **Local Storage API** → Client-side data persistence and session management
 
 ### Core Components
 
@@ -42,6 +32,14 @@ Seamless data recovery across browser sessions and page reloads.
 - **📍 Geolocation Services `(_getPosition)`:**<br>
 Browser-native location detection with error handling and fallbacks.<br>
 Automatic map centering on user's current geographical position.
+
+### Tech Stack
+- **HTML5** → Semantic markup with modern web standards and accessibility
+- **CSS3** → Advanced styling with flexbox, grid, and responsive design
+- **JavaScript ES6+** → Object-oriented programming with classes and modern features
+- **Leaflet.js** → Interactive map rendering and marker management
+- **Geolocation API** → Real-time user positioning and location services
+- **Local Storage API** → Client-side data persistence and session management
 
 ### Application Architecture Flow
 ```
@@ -282,33 +280,33 @@ const allPositive = (...inputs) =>
 ## 🔮 Future Enhancements
 
 ### Planned Features
-- 🌍 **Offline Map Support** - Service worker implementation for tile caching
-- 📊 **Advanced Analytics** - Weekly/monthly statistics and progress tracking
-- 🏆 **Achievement System** - Goal setting and milestone recognition
-- 📤 **Data Export** - CSV/JSON export functionality for external analysis
-- 🎨 **Theme Customization** - Dark mode and personalized color schemes
+-  **Offline Map Support** - Service worker implementation for tile caching
+-  **Advanced Analytics** - Weekly/monthly statistics and progress tracking
+-  **Achievement System** - Goal setting and milestone recognition
+-  **Data Export** - CSV/JSON export functionality for external analysis
+-  **Theme Customization** - Dark mode and personalized color schemes
 
 ### Technical Improvements
-- 🧪 **Testing Suite** - Unit tests with Jest for component validation
-- 📱 **PWA Features** - Service worker and manifest for app-like experience
-- 🔄 **Data Sync** - Cloud storage integration for cross-device synchronization
-- 🎯 **Route Planning** - Integration with routing APIs for workout paths
+-  **Testing Suite** - Unit tests with Jest for component validation
+-  **PWA Features** - Service worker and manifest for app-like experience
+-  **Data Sync** - Cloud storage integration for cross-device synchronization
+-  **Route Planning** - Integration with routing APIs for workout paths
 
 ## 🤝 Contributing
 
 ### How to Contribute
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch (`git checkout -b feature/map-enhancements`)
-3. 💾 Commit your changes (`git commit -m 'Add route tracking feature'`)
-4. 📤 Push to the branch (`git push origin feature/map-enhancements`)
-5. 🔄 Open a Pull Request
+1.  Fork the repository
+2.  Create a feature branch (`git checkout -b feature/map-enhancements`)
+3.  Commit your changes (`git commit -m 'Add route tracking feature'`)
+4.  Push to the branch (`git push origin feature/map-enhancements`)
+5.  Open a Pull Request
 
 ### Development Areas
-- 🗺️ Enhanced map features and custom tile layers
-- 📊 Advanced workout analytics and data visualization
-- 📱 Mobile app development with React Native
-- 🔄 Real-time synchronization and cloud storage
-- 🧪 Comprehensive testing and performance optimization
+-  Enhanced map features and custom tile layers
+-  Advanced workout analytics and data visualization
+-  Mobile app development with React Native
+-  Real-time synchronization and cloud storage
+-  Comprehensive testing and performance optimization
 
 ## ⚖️ Ethical Usage & Privacy
 
