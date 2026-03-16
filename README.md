@@ -200,7 +200,7 @@ _getPosition() {
 }
 ```
 
-### Sophisticated Data Persistence
+### User's Data Persistence
 ```javascript
 _setLocalStorage() {
   localStorage.setItem('workouts', JSON.stringify(this.#workouts));
